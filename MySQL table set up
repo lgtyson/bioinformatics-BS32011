@@ -1,0 +1,12 @@
+#MySQL tables
+
+mysql -[USER] -p[USER] #enter your user name here
+
+password:              #enter password when promted
+infile='XXXXXXX'       # insert the selected file you want as a table, e.g. probe.txt
+
+LOAD DATA LOCAL INFILE 'XXXXXX' INTO QQQQQQ #where X is the infile name, and Q is the name of the table you want
+
+INGORE R LINES   # R is the number of lines you do not want to be read into the table
+
+# Please note the tables have not been uploaded as a file due to them containing confidentail loggin details to open my MySQL database.
