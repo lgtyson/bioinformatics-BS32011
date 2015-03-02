@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import MySQLdb
-#None functioning script for a database interacting class to represent a gene.
+#None functioning script for a database to use filehandlers of the datasets created in tables to deal with a selected gene.
 
 
 
