@@ -1,0 +1,1 @@
+gunzip filename.gz # This script to unzip the GEO file, note: replace the filename with your file name.
