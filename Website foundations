@@ -12,7 +12,7 @@ body{color:#0404B4; font-family: "arial"; text-align: center}
 <h3><i><font size="3"></font></i></h3>
   <p> This is a web interfaced designed to allow users to search and query the database created for the BS32011 module, and search for gene expression values   </p>
      
-<form action="/~lgtyson/geo-bin/cgi_pointer.py" method=GET>       <!-- not this is not working yet -->
+<form action="/~lgtyson/geo-bin/pull_code.py" method=GET>       <!-- not this is not working yet -->
    <input type=text name=title size=30 value='Enter Gene_ID'/>
    <input type="Submit" value="Go"/>
    
