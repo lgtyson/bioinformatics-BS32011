@@ -21,3 +21,8 @@ This is the link to the GEO dataset used in this project.    http://www.ncbi.nlm
 27/02/15
 
 
+
+
+Each file has a description in the commit. Please see these for further details about the purpose of each file!
+
+
