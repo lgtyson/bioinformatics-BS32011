@@ -1,0 +1,23 @@
+<!-- this is the html code for the web interface -->
+<html>
+  <head>   <!-- open the header -->
+<title>Dengue Virus </title> <!-- open title, replace XXXXXX with your title -->
+  </head>
+<style>
+body{color:#0404B4; font-family: "arial"; text-align: center}
+</style>
+  <body bgcolor="#848484">
+   <h1 style="color:#4B0082; font-weight:560"><font size="12"> This is the gene expression data for the M.Kwissa <i>et al </i> Dengue Virus project</font> </h1>
+<h2><b><font size="4"></font></b></h2>
+<h3><i><font size="3"></font></i></h3>
+  <p> This is a web interfaced designed to allow users to search and query the database created for the BS32011 module, and search for gene expression values   </p>
+     
+<form action="/~lgtyson/geo-bin/cgi_pointer.py" method=GET>       <!-- not this is not working yet -->
+   <input type=text name=title size=30 value='Enter Gene_ID'/>
+   <input type="Submit" value="Go"/>
+   
+</form>
+  </body>
+</html>
+
+
